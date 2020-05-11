@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8"/>
+    <title>页面demo</title>
+    <script crossorigin src="https://unpkg.com/react@16/umd/react.development.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@16/umd/react-dom.development.js"></script>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+</head>
+<body>
+<div id="root"></div>
+        aaa
+<script type="text/babel">
+    //hook ref
+    function Calc() {
+        const numA = React.useRef(null);
+        const numB = React.useRef(null);
+        let result = React.useRef(null);
+        const add = () => {
+            result.current.value = numA.current.value + numB.current.value;
+        };
+        return (<>
+            <input ref={numA}/>+121<input ref={numB}/>
+            <button onClick={add}>=</button>
+            <input ref={result}/>
+        </>);
+    }
+    // ref=变量
+    class Calc2 extends React.Component {
+        constructor(props) {
+            super(props);
+            this.numA = React.createRef();
+            this.numB = React.createRef();
+            this.result = React.createRef();
+        }
+
+        add = () => {
+            this.result.current.value = this.numA.current.value + this.numB.current.value;
+            console.log(this);
+        };
+
+        render() {
+            return (<>
+                <input ref={this.numA}/>+<input ref={this.numB}/>
+                <button onClick={this.add}>=</button>
+                <input ref={this.result}/>
+            </>);
+        }
+
+    }
+
+    //ref=函数
+    class Calc3 extends React.Component {
+
+        add = () => {
+            // this.result.current.value = this.numA.current.value + this.numB.current.value;
+            console.log(this);
+            // let {numA, numB, result} = this.refs;
+            this.result.value = this.numA.value + this.numB.value;
+        }
+
+        render() {
+            return (<>
+                <input ref={inst=>this.numA=inst}/>+<input ref={inst=>this.numB=inst}/>
+                <button onClick={this.add}>=</button>
+                <input ref={inst=>this.result=inst}/>
+            </>);
+        }
+
+    }
+    //ref = 字符串
+    class Calc4 extends React.Component {
+        constructor(props) {
+            super(props);
+        }
+
+        add = () => {
+            // this.result.current.value = this.numA.current.value + this.numB.current.value;
+            console.log(this);
+            let {numA, numB, result} = this.refs;
+            result.value = numA.value + numB.value;
+        }
+
+        render() {
+            return (<>
+                <input ref="numA"/>+<input ref="numB"/>
+                <button onClick={this.add}>=</button>
+                <input ref="result"/>
+            </>);
+        }
+
+    }
+
+
+    ReactDOM.render(
+        <>
+            <Calc/><br/>
+            <Calc2/><br/>
+            <Calc3/><br/>
+            <Calc4/><br/>
+        </>
+        ,
+        document.getElementById('root')
+    );
+
+</script>
+</body>
+</html>

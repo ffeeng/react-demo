@@ -2,33 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0a46cfdb-b4f7-47b8-8b86-1b7bf78153ee" name="默认更改列表" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/webpack.config.dev.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/webpack.config.prod.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/note.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/01入门/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/02JSX/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/03更新元素/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/05事件处理/箭头函数.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/05事件处理/箭头函数2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/05事件处理/绑定this.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/06受控组件/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/07状态提升/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/08页面demo/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/09_Hook/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/10_Context/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/counter.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/game.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/11_Ref/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.test.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/logo.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/serviceWorker.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/setupTests.js" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,6 +36,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="add_unversioned_files" value="$PROJECT_DIR$/node_modules/@types/react/index.d.ts" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -67,24 +45,34 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="yarn" />
+    <property name="settings.editor.selected.configurable" value="Errors" />
     <property name="ts.external.directory.path" value="D:\Program Files\JetBrains\WebStorm 2019.3\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\webStromProject\react-demo\src" />
-      <recent name="D:\webStromProject\react-demo\src\05事件处理" />
-      <recent name="D:\webStromProject\react-demo\src\04类组件" />
-      <recent name="D:\webStromProject\react-demo\config" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\webStromProject\react-demo\src\06受控组件" />
       <recent name="D:\webStromProject\react-demo\src" />
       <recent name="D:\webStromProject\react-demo\src\01入门" />
       <recent name="D:\webStromProject\react-demo\config" />
     </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\webStromProject\react-demo\src" />
+      <recent name="D:\webStromProject\react-demo\src\05事件处理" />
+      <recent name="D:\webStromProject\react-demo\src\04类组件" />
+      <recent name="D:\webStromProject\react-demo\config" />
+    </key>
   </component>
-  <component name="RunManager" selected="npm.npm start">
+  <component name="RunManager" selected="Node.js.b.js">
     <configuration name="Debug Application" type="JavascriptDebugType" uri="http://localhost:3000">
+      <method v="2" />
+    </configuration>
+    <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/react-demo/src/11_Ref/index.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="test.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/react-demo/src/test.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="b.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$APPLICATION_CONFIG_DIR$/scratches/b.js" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
     <configuration name="build" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
@@ -109,6 +97,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Node.js.b.js" />
+        <item itemvalue="JavaScript Debug.test.html" />
+        <item itemvalue="JavaScript Debug.index.html" />
         <item itemvalue="npm.build" />
       </list>
     </recent_temporary>
@@ -145,21 +136,51 @@
       <workItem from="1588561640076" duration="834000" />
       <workItem from="1588563198367" duration="8978000" />
       <workItem from="1588645499226" duration="1858000" />
+      <workItem from="1588661601220" duration="833000" />
+      <workItem from="1588665708825" duration="2277000" />
+      <workItem from="1589079856323" duration="719000" />
+      <workItem from="1589080591307" duration="14537000" />
+      <workItem from="1589201673722" duration="689000" />
     </task>
+    <task id="LOCAL-00001" summary="react教程demo">
+      <created>1588661734936</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1588661734936</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="react教程demo" />
+    <option name="LAST_COMMIT_MESSAGE" value="react教程demo" />
   </component>
   <component name="WindowStateProjectService">
     <state x="690" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1588604315083">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="690" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1588604315083" />
-    <state x="575" y="110" key="CommitChangelistDialog2" timestamp="1588661619347">
+    <state x="575" y="110" key="CommitChangelistDialog2" timestamp="1588661733151">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="575" y="110" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1588661619347" />
+    <state x="575" y="110" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1588661733151" />
     <state x="740" y="274" key="FileChooserDialogImpl" timestamp="1585907994312">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -168,77 +189,101 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="824" y="410" width="273" height="255" key="Github.ShareDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1588661668823" />
-    <state width="1877" height="238" key="GridCell.Tab.0.bottom" timestamp="1588562473918">
+    <state width="1874" height="267" key="GridCell.Tab.0.bottom" timestamp="1589119750815">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="238" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1588562473918" />
-    <state width="1877" height="238" key="GridCell.Tab.0.center" timestamp="1588562473918">
+    <state width="1874" height="267" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1589119750815" />
+    <state width="1874" height="267" key="GridCell.Tab.0.center" timestamp="1589119750815">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="238" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1588562473918" />
-    <state width="1877" height="238" key="GridCell.Tab.0.left" timestamp="1588562473918">
+    <state width="1874" height="267" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1589119750815" />
+    <state width="1874" height="267" key="GridCell.Tab.0.left" timestamp="1589119750815">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="238" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1588562473918" />
-    <state width="1877" height="238" key="GridCell.Tab.0.right" timestamp="1588562473918">
+    <state width="1874" height="267" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1589119750815" />
+    <state width="1874" height="267" key="GridCell.Tab.0.right" timestamp="1589119750815">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="238" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1588562473918" />
-    <state width="1877" height="238" key="GridCell.Tab.1.bottom" timestamp="1588562473919">
+    <state width="1874" height="267" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1589119750815" />
+    <state width="1874" height="374" key="GridCell.Tab.1.bottom" timestamp="1589119750810">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="238" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1588562473919" />
-    <state width="1877" height="238" key="GridCell.Tab.1.center" timestamp="1588562473918">
+    <state width="1874" height="374" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1589119750810" />
+    <state width="1874" height="374" key="GridCell.Tab.1.center" timestamp="1589119750810">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="238" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1588562473918" />
-    <state width="1877" height="238" key="GridCell.Tab.1.left" timestamp="1588562473918">
+    <state width="1874" height="374" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1589119750810" />
+    <state width="1874" height="374" key="GridCell.Tab.1.left" timestamp="1589119750810">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="238" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1588562473918" />
-    <state width="1877" height="238" key="GridCell.Tab.1.right" timestamp="1588562473918">
+    <state width="1874" height="374" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1589119750810" />
+    <state width="1874" height="374" key="GridCell.Tab.1.right" timestamp="1589119750810">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="238" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1588562473918" />
-    <state width="1877" height="238" key="GridCell.Tab.2.bottom" timestamp="1588562473919">
+    <state width="1874" height="374" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1589119750810" />
+    <state width="1874" height="374" key="GridCell.Tab.2.bottom" timestamp="1589119750810">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="238" key="GridCell.Tab.2.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1588562473919" />
-    <state width="1877" height="238" key="GridCell.Tab.2.center" timestamp="1588562473919">
+    <state width="1874" height="374" key="GridCell.Tab.2.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1589119750810" />
+    <state width="1874" height="374" key="GridCell.Tab.2.center" timestamp="1589119750810">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="238" key="GridCell.Tab.2.center/0.0.1920.1040@0.0.1920.1040" timestamp="1588562473919" />
-    <state width="1877" height="238" key="GridCell.Tab.2.left" timestamp="1588562473919">
+    <state width="1874" height="374" key="GridCell.Tab.2.center/0.0.1920.1040@0.0.1920.1040" timestamp="1589119750810" />
+    <state width="1874" height="374" key="GridCell.Tab.2.left" timestamp="1589119750810">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="238" key="GridCell.Tab.2.left/0.0.1920.1040@0.0.1920.1040" timestamp="1588562473919" />
-    <state width="1877" height="238" key="GridCell.Tab.2.right" timestamp="1588562473919">
+    <state width="1874" height="374" key="GridCell.Tab.2.left/0.0.1920.1040@0.0.1920.1040" timestamp="1589119750810" />
+    <state width="1874" height="374" key="GridCell.Tab.2.right" timestamp="1589119750810">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="238" key="GridCell.Tab.2.right/0.0.1920.1040@0.0.1920.1040" timestamp="1588562473919" />
-    <state width="1877" height="238" key="GridCell.Tab.3.bottom" timestamp="1588562473919">
+    <state width="1874" height="374" key="GridCell.Tab.2.right/0.0.1920.1040@0.0.1920.1040" timestamp="1589119750810" />
+    <state width="1874" height="374" key="GridCell.Tab.3.bottom" timestamp="1589119750810">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="238" key="GridCell.Tab.3.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1588562473919" />
-    <state width="1877" height="238" key="GridCell.Tab.3.center" timestamp="1588562473919">
+    <state width="1874" height="374" key="GridCell.Tab.3.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1589119750810" />
+    <state width="1874" height="374" key="GridCell.Tab.3.center" timestamp="1589119750810">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="238" key="GridCell.Tab.3.center/0.0.1920.1040@0.0.1920.1040" timestamp="1588562473919" />
-    <state width="1877" height="238" key="GridCell.Tab.3.left" timestamp="1588562473919">
+    <state width="1874" height="374" key="GridCell.Tab.3.center/0.0.1920.1040@0.0.1920.1040" timestamp="1589119750810" />
+    <state width="1874" height="374" key="GridCell.Tab.3.left" timestamp="1589119750810">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="238" key="GridCell.Tab.3.left/0.0.1920.1040@0.0.1920.1040" timestamp="1588562473919" />
-    <state width="1877" height="238" key="GridCell.Tab.3.right" timestamp="1588562473919">
+    <state width="1874" height="374" key="GridCell.Tab.3.left/0.0.1920.1040@0.0.1920.1040" timestamp="1589119750810" />
+    <state width="1874" height="374" key="GridCell.Tab.3.right" timestamp="1589119750810">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="238" key="GridCell.Tab.3.right/0.0.1920.1040@0.0.1920.1040" timestamp="1588562473919" />
+    <state width="1874" height="374" key="GridCell.Tab.3.right/0.0.1920.1040@0.0.1920.1040" timestamp="1589119750810" />
+    <state x="609" y="142" key="SettingsEditor" timestamp="1589088767169">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="609" y="142" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1589088767169" />
     <state width="588" height="446" key="SwitcherDM" timestamp="1588603707668">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="588" height="446" key="SwitcherDM/0.0.1920.1040@0.0.1920.1040" timestamp="1588603707668" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1585893495105">
+    <state x="552" y="241" key="Vcs.Push.Dialog.v2" timestamp="1588662569980">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1585893495105" />
+    <state x="552" y="241" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1588662569980" />
+    <state x="638" y="339" width="644" height="369" key="XPathView.FindDialog.DIMENSION_SERVICE_KEY.SIMPLE" timestamp="1589089063106">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="638" y="339" width="644" height="369" key="XPathView.FindDialog.DIMENSION_SERVICE_KEY.SIMPLE/0.0.1920.1040@0.0.1920.1040" timestamp="1589089063106" />
+    <state x="616" y="240" key="run.anything.popup" timestamp="1589083967607">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="616" y="240" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1589083967607" />
+    <state x="825" y="430" key="save.project.as.template.dialog" timestamp="1589087761598">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="825" y="430" key="save.project.as.template.dialog/0.0.1920.1040@0.0.1920.1040" timestamp="1589087761598" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1589089091416">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1589089091416" />
+  </component>
+  <component name="XPathView.XPathProjectComponent">
+    <history />
+    <find-history />
   </component>
 </project>
